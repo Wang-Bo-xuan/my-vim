@@ -2,10 +2,11 @@ set nocompatible
 set number
 set tabstop=2
 set updatetime=100
-"set cursorline
-"set cursorcolumn
-"highlight CursorLine cterm=bold ctermbg=blue ctermfg=yellow guibg=NONE guifg=NONE
-"highlight CursorColumn cterm=NONE ctermbg=gray ctermfg=yellow guibg=NONE guifg=NONE
+syntax on
+set cursorline
+set cursorcolumn
+highlight CursorLine cterm=bold ctermbg=blue ctermfg=yellow guibg=NONE guifg=NONE
+highlight CursorColumn cterm=NONE ctermbg=gray ctermfg=yellow guibg=NONE guifg=NONE
 filetype off
  
 "set the runtime path to include Vundle and initialize
